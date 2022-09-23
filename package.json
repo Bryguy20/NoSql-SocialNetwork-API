@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.6.1"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "nosql-socialnetwork-api",
+  "description": "",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bryguy20/NoSql-SocialNetwork-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bryguy20/NoSql-SocialNetwork-API/issues"
+  },
+  "homepage": "https://github.com/Bryguy20/NoSql-SocialNetwork-API#readme"
+}
