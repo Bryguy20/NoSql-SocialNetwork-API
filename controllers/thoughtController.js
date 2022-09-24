@@ -8,6 +8,7 @@ const thoughtController = {
             path: 'reactions',
             select: "-__v",
         })
+        
         .select('-__v')
         .sort({ _id: -1 })
         .then((dbThoughtData) => res.json(dbThoughtData))
@@ -52,7 +53,7 @@ const thoughtController = {
             if(!dbUserData){
                 return res 
                 .status(404)
-                .json({ message: 'Thought created ut no user with this id!'});
+                .json({ message: 'Thought created with no user with this id!'});
             }
 
             res.json({ message: 'thought successfully created!'});
